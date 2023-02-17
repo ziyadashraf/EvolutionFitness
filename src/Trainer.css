@@ -1,0 +1,272 @@
+.trainer-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    margin-top: 20vh;
+    margin-left: 15vw;
+    margin-bottom: 10vh;
+
+    z-index: 5;
+    position: relative;
+}
+
+
+
+.trainer-data .trainer-social {
+    margin-top: 10px;
+}
+
+.trainer-social {
+    margin-left: 3px;
+}
+
+.container-all .gym-info {
+    height: 190px;
+}
+
+.trainer-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid #86C03E;
+    object-fit: cover;
+    transition: all 0.3s;
+
+
+}
+
+
+
+.trainer-identify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: flex-start;
+}
+
+.trainer-profile {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    margin-left: 50px
+}
+
+.trainer-profile .trainer-pro p {
+    margin-bottom: 0;
+    margin-left: 0
+}
+
+.trainer-name h1 {
+    font-size: 50px;
+    color: #2C3131;
+    margin-top: 1vh;
+
+}
+
+.trainer-firstname {
+    font-size: 40px;
+}
+
+
+
+.trainer-years {
+    font-weight: 300;
+}
+
+.trainer-years p {
+    margin: 0
+}
+
+.trainer-bio {
+    margin: 0;
+
+}
+
+.trainer-bio p {
+    margin-top: 5px;
+
+
+
+}
+
+.right-decorations {
+    position: absolute;
+    top: 15vh;
+    left: calc(100% - 400px);
+}
+
+.right-decorations img {
+    width: 400px;
+    height: 250px;
+    z-index: 1;
+    position: absolute;
+
+}
+
+@media (max-width:850px) {
+    .trainer-name h1 {
+
+        color: #2C3131;
+        margin-top: 5vh;
+
+    }
+
+    .trainer-data {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        margin-top: 20vh;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10vh;
+
+        z-index: 5;
+        position: relative;
+    }
+
+    .trainer-profile {
+
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .trainer-years {
+        font-size: small;
+        font-weight: 300;
+    }
+
+    .trainer-bio {
+        font-size: small;
+        text-align: center;
+        width: 100%;
+
+    }
+
+
+}
+
+@media (max-width: 375px) {
+
+    .right-decorations {
+        position: absolute;
+        top: 18vh;
+    }
+
+    .right-decorations img {
+        width: 400px;
+        height: 250px;
+        z-index: 1;
+        position: absolute;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+    .container-all .gym-info {
+        height: 150px;
+    }
+}
+
+
+@media (max-width: 330px) {
+
+    .left-decorations {
+        position: absolute;
+        top: 18vh;
+    }
+
+    .left-decorations img {
+        width: 400px;
+        height: 250px;
+        z-index: 1;
+        position: absolute;
+    }
+
+
+    .trainer-name h1 {
+        font-size: 40px;
+        color: #2C3131;
+        margin-top: 1vh;
+
+    }
+
+    .trainer-firstname {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .trainer-profile .trainer-pro {
+        font-weight: 300;
+        font-size: 15px;
+    }
+}
+
+.other-trainers .info-headers {
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+@media (max-width:600px) {
+    .other-trainers .info-headers {
+        font-size: 20px;
+    }
+}
+
+
+#info-trainees {
+    border-right: 2px solid #FAFAFA;
+    z-index: 5;
+
+}
+
+#info-certificates {
+    border-left: 2px solid #FAFAFA;
+    z-index: 5;
+
+}
+
+@media (max-width:576px) {
+
+
+
+    #info-trainees {
+        border-right: 0px solid #FAFAFA;
+    }
+
+    #info-certificates {
+        border-left: 0px solid #FAFAFA;
+    }
+}
+
+
+@media (max-height:576px) {
+
+
+    #info-trainees {
+        border-right: 1px solid #FAFAFA;
+    }
+
+    #info-certificates {
+        border-left: 1px solid #FAFAFA;
+    }
+
+}
+
+#info-trainees .info-icon {
+    width: 40px;
+    height: 40px
+}
+
+@media (max-width: 400px) {
+    #info-trainees .info-icon {
+        width: 30px;
+        height: 30px
+    }
+}

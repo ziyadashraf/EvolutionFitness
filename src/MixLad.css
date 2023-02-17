@@ -1,0 +1,576 @@
+.container-all {
+    position: absolute;
+
+    background-color: #FAFAFA;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+
+
+
+.headers {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+
+    margin-top: 18vh;
+
+
+    z-index: 5;
+    color: #2C3131;
+
+
+}
+
+@media (max-width:700px) {
+    .headers {
+        font-size: 35px;
+
+    }
+
+}
+
+@media (max-width:370px) {
+    .headers {
+        font-size: 30px;
+
+    }
+
+}
+
+@media (max-width:300px) {
+    .headers {
+        font-size: 25px;
+
+    }
+
+}
+
+.cards-holder {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-bottom: 4vh;
+
+}
+
+.c-general {
+    width: 300px;
+    height: 530px;
+    margin: 0px 5px 50px 5px;
+    border-radius: 40px;
+    border: 2px solid transparent;
+    background-color: #2C3131;
+
+    cursor: pointer;
+
+    transition: all 0.5s;
+
+
+
+
+    box-shadow: 0 3px 10px 4px #b0b0b0;
+
+    position: relative;
+
+}
+
+.c-recommended {
+    position: relative;
+    background-color: #FAFAFA;
+    border: 2px solid #86C03E;
+
+    box-shadow: 0px 0px 10px 3px #dfdfdf;
+
+
+    /* box-shadow: 0 4px 20px 0 rgba(156, 156, 156, 0.2); */
+
+    z-index: 5;
+}
+
+
+.c-general:hover {
+    box-shadow: 0px 0px 0px #dfdfdf;
+
+    /* border: 5px solid #86C03E; */
+}
+
+.c-recommended:hover {
+    box-shadow: 0 0 0 #dfdfdf;
+
+
+
+}
+
+@media (max-width: 899px) {
+
+
+
+    .recommended {
+        background-color: #FAFAFA;
+        border: 3px solid #86C03E;
+
+        /* box-shadow: 0 4px 80px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+
+
+        /* box-shadow: 1px 1px 2px black; */
+    }
+
+    .c-general {
+
+        border: 3px solid #86C03E;
+
+        box-shadow: none;
+
+
+
+    }
+
+    .c-general:hover {
+        box-shadow: none;
+
+        /* border: 5px solid #86C03E; */
+    }
+
+    .c-recommended:hover {
+        box-shadow: none;
+
+    }
+
+}
+
+
+
+
+.c-title {
+    text-align: center;
+    font-family: northen;
+    font-size: 25px;
+
+    color: #FAFAFA;
+}
+
+
+.c-title h3 {
+    margin-top: 40px;
+
+}
+
+.c-title-green {
+    color: #86C03E;
+}
+
+.card-subtitles {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.c-details-inside {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: 300;
+}
+
+.c-details-visit-hours {
+    margin: 0px 0 0px 0;
+    width: 105px;
+    height: 30px;
+
+
+}
+
+.c-details-visit-hours-no {
+    margin: 0px 0 0px 0;
+    width: 105px;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+
+
+.c-details-services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 145px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+}
+
+.c-details-services-no {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    width: 70px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+
+}
+
+
+
+
+.card-prices {
+    justify-content: center;
+}
+
+
+.card-details-prices {
+    text-align: center;
+    justify-self: center;
+    font-size: 13px;
+    margin: 0;
+}
+
+.c-price {
+    font-size: 45px;
+    color: #86C03E;
+    font-weight: 300;
+}
+
+
+
+.button-c-white,
+.button-c-black {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-c-white button {
+    width: 125px;
+    height: 37px;
+    border-radius: 30px;
+
+    background-color: transparent;
+
+    color: #fafafa;
+    border: 1px solid #fafafa;
+
+    cursor: pointer;
+
+}
+
+.button-c-black button {
+    width: 125px;
+    height: 37px;
+    border-radius: 30px;
+
+    background-color: transparent;
+
+    color: #2C3131;
+    border: 1px solid #2C3131;
+
+    cursor: pointer;
+}
+
+
+.button-c-white button:hover,
+.button-c-black button:hover {
+    background-color: #bdbdbd2c;
+}
+
+
+.ps-notes {
+    /* display: none; */
+    font-size: 10px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 6;
+}
+
+
+
+@media (max-width: 984px) {
+
+
+
+
+
+    button {
+        transition: all 0.3s;
+        cursor: pointer;
+
+        font-size: 11px;
+    }
+
+
+    .c-general {
+        width: 300px;
+        height: 550px;
+    }
+
+    .card-services {
+        margin-bottom: 0;
+    }
+
+
+    .c-details-visit-hours {
+        margin: 0px 0 0px 0;
+        width: 105px;
+        height: 30px;
+
+
+    }
+
+    .c-details-visit-hours-no {
+        margin: 0px 0 0px 0;
+        width: 105px;
+        height: 30px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+    }
+
+
+
+
+
+}
+
+
+
+@media (max-width: 405px) {
+
+    .cards-holder {
+        font-size: small;
+    }
+
+    .c-general {
+        font-size: small;
+        width: 270px;
+        height: 510px;
+        margin: 0px 20px 30px 20px;
+
+    }
+
+    .c-visit-hours {
+        margin-bottom: 0px;
+    }
+
+    .button-c-white button {
+        width: 120px;
+        height: 30px;
+
+
+    }
+
+    .button-c-black button {
+        width: 120px;
+        height: 30px;
+
+    }
+
+    .c-services {
+        margin-bottom: 10px;
+    }
+
+    /* .card-subtitles {
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+   
+
+    .card-services {
+        margin-bottom: 20px;
+    }
+
+    .c-details-inside {
+        margin-right: 0;
+    }
+
+
+    .c-details-visit-hours {
+        width: 92px;
+        height: 30px
+    }
+
+    .c-details-services {
+        width: 92px;
+        margin-right: 0;
+    }
+
+    .card-details-prices {
+        font-size: 10px;
+    }
+
+    .price {
+        font-size: 40px;
+    }
+
+} */
+
+    .ps-notes {
+        font-size: 7px;
+        margin-left: 5px;
+
+    }
+
+
+}
+
+@media (max-width: 319px) {
+
+    .cards-holder {
+        font-size: smaller;
+    }
+
+    .c-general {
+        font-size: smaller;
+        width: 220px;
+        height: 410px
+    }
+
+    .c-title {
+        text-align: center;
+        font-family: northen;
+        font-size: 20px;
+
+        color: #FAFAFA;
+    }
+
+    .card-subtitles {
+        font-size: 13px;
+        font-weight: 400;
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .c-details-inside {
+        margin-left: 10px;
+
+    }
+
+    .c-visit-hours {
+        margin-bottom: 0px;
+    }
+
+    .c-services {
+        margin-bottom: 20px;
+    }
+
+    .c-details-inside {
+        margin-right: 10px;
+    }
+
+
+    .c-details-visit-hours {
+        width: 50px;
+        height: 30px
+    }
+
+    .c-details-services {
+        width: 100px;
+        margin-right: 0;
+
+        margin-right: 10px;
+    }
+
+    .card-details-prices {
+        font-size: 8px;
+    }
+
+    .c-price {
+        font-size: 35px;
+    }
+
+
+    .button-c-white button {
+        width: 80px;
+        height: 25px;
+        border-radius: 30px;
+
+        background-color: #dfdfdf00;
+
+        color: #fafafa;
+        border: 1px solid #fafafa
+    }
+
+    .button-c-black button {
+        width: 80px;
+        height: 25px;
+        border-radius: 30px;
+
+        background-color: #dfdfdf00;
+
+        color: #2C3131;
+        border: 1px solid #2C3131
+    }
+
+    button {
+        transition: all 0.3s;
+        cursor: pointer;
+
+        font-size: 9px;
+    }
+
+    .ps-notes {
+        font-size: 5px;
+        margin-left: 5px;
+
+    }
+
+}
+
+.subs-status {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: 500;
+
+    font-size: 13px;
+}
+
+.bottom-decorations {
+    position: absolute;
+    width: 100%
+}
+
+.bottom-decorations img {
+    position: absolute;
+    width: auto;
+    height: 30vh;
+
+    right: 0;
+    bottom: 0;
+}
